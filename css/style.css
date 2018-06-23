@@ -2,6 +2,7 @@
 body {
   padding-top: 20px;
   padding-bottom: 20px;
+  background-color:  #ECECEC; 
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -44,7 +45,7 @@ body {
 /* Main marketing message and sign up button */
 .jumbotron {
   text-align: center;
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5E5;
 }
 .jumbotron .btn {
   padding: 14px 24px;
@@ -94,9 +95,11 @@ body {
 .header-bar {
   display: block;
   padding: 5px 10px;
-  color: #fff;
+  /* color: #fff; */
+   color: #fff;
   text-align: left;
-  background-color: #848482;
+ /* background-color: #848423; */
+background-color: #0097da; 
 }
 
 .header-bar .address {
@@ -113,11 +116,14 @@ body {
   min-height: 1px;
   padding-right: 15px;
   padding-left: 15px;
+
+
 }
 
 @media (min-width: 768px) {
   .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
     float: left;
+  
   }
   .col-sm-2 {
     width: 16.66666667%;
